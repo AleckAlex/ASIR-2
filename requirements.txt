@@ -1,0 +1,5 @@
+# A-SIR model code (Alexopoulos, BioSystems submission 2026)
+# Tested with Python 3.13
+numpy>=2.0
+scipy>=1.18
+matplotlib>=3.8

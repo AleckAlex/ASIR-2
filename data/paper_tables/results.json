@@ -1,0 +1,824 @@
+{
+ "calibration": [
+  {
+   "beta_eff": 0.3,
+   "fa": 0.0,
+   "delta": 0.0,
+   "r": 0.2002,
+   "R0": 3.0
+  },
+  {
+   "beta_eff": 0.3,
+   "fa": 0.2,
+   "delta": 0.4857,
+   "r": 0.2,
+   "R0": 3.07
+  },
+  {
+   "beta_eff": 0.3,
+   "fa": 0.5,
+   "delta": 1.2148,
+   "r": 0.2,
+   "R0": 3.17
+  },
+  {
+   "beta_eff": 0.3,
+   "fa": 0.9,
+   "delta": 2.1835,
+   "r": 0.2,
+   "R0": 3.3
+  },
+  {
+   "beta_eff": 0.5,
+   "fa": 0.0,
+   "delta": 0.0,
+   "r": 0.4005,
+   "R0": 5.0
+  },
+  {
+   "beta_eff": 0.5,
+   "fa": 0.2,
+   "delta": 0.8898,
+   "r": 0.4,
+   "R0": 5.22
+  },
+  {
+   "beta_eff": 0.5,
+   "fa": 0.5,
+   "delta": 2.2275,
+   "r": 0.4,
+   "R0": 5.56
+  },
+  {
+   "beta_eff": 0.5,
+   "fa": 0.9,
+   "delta": 4.0035,
+   "r": 0.4,
+   "R0": 6.01
+  }
+ ],
+ "validation": {
+  "0.4": {
+   "peak": 37.0,
+   "t_peak": 11.6,
+   "peak_sir": 15.8
+  },
+  "0.1": {
+   "peak": 27.0,
+   "t_peak": 17.1,
+   "peak_sir": 1.0
+  }
+ },
+ "sir3_vs_sir1": {
+  "0.3": {
+   "peak3": 30.39,
+   "peak1": 30.38,
+   "maxdiff_pp": 0.034
+  },
+  "0.5": {
+   "peak3": 48.01,
+   "peak1": 48.01,
+   "maxdiff_pp": 0.068
+  }
+ },
+ "mitigation": [
+  {
+   "R0": 3,
+   "fa": 0.0,
+   "measure": "None",
+   "peak": 30.4,
+   "red": 0.0,
+   "attack": 93.1,
+   "duration": 77.0,
+   "aer_share": 0.0,
+   "t_peak": 26.5
+  },
+  {
+   "R0": 3,
+   "fa": 0.0,
+   "measure": "Barriers",
+   "peak": 2.3,
+   "red": 92.4,
+   "attack": 33.7,
+   "duration": 166.2,
+   "aer_share": 0.0,
+   "t_peak": 80.5
+  },
+  {
+   "R0": 3,
+   "fa": 0.0,
+   "measure": "Distancing",
+   "peak": 7.0,
+   "red": 77.0,
+   "attack": 58.4,
+   "duration": 142.8,
+   "aer_share": 0.0,
+   "t_peak": 65.0
+  },
+  {
+   "R0": 3,
+   "fa": 0.0,
+   "measure": "Ventilation",
+   "peak": 30.4,
+   "red": 0.0,
+   "attack": 93.1,
+   "duration": 77.0,
+   "aer_share": 0.0,
+   "t_peak": 26.5
+  },
+  {
+   "R0": 3,
+   "fa": 0.0,
+   "measure": "Masking",
+   "peak": 1.0,
+   "red": 96.7,
+   "attack": 0.4,
+   "duration": 0.0,
+   "aer_share": 0.0,
+   "t_peak": 0.0
+  },
+  {
+   "R0": 3,
+   "fa": 0.0,
+   "measure": "WFH",
+   "peak": 1.0,
+   "red": 96.7,
+   "attack": 1.6,
+   "duration": 0.0,
+   "aer_share": 0.0,
+   "t_peak": 0.0
+  },
+  {
+   "R0": 3,
+   "fa": 0.2,
+   "measure": "None",
+   "peak": 30.6,
+   "red": 0.0,
+   "attack": 93.4,
+   "duration": 76.8,
+   "aer_share": 20.7,
+   "t_peak": 26.8
+  },
+  {
+   "R0": 3,
+   "fa": 0.2,
+   "measure": "Barriers",
+   "peak": 8.9,
+   "red": 70.8,
+   "attack": 65.1,
+   "duration": 133.2,
+   "aer_share": 40.7,
+   "t_peak": 59.5
+  },
+  {
+   "R0": 3,
+   "fa": 0.2,
+   "measure": "Distancing",
+   "peak": 13.1,
+   "red": 57.1,
+   "attack": 74.8,
+   "duration": 115.5,
+   "aer_share": 35.2,
+   "t_peak": 49.2
+  },
+  {
+   "R0": 3,
+   "fa": 0.2,
+   "measure": "Ventilation",
+   "peak": 23.3,
+   "red": 23.9,
+   "attack": 88.0,
+   "duration": 88.5,
+   "aer_share": 2.7,
+   "t_peak": 33.5
+  },
+  {
+   "R0": 3,
+   "fa": 0.2,
+   "measure": "Masking",
+   "peak": 1.0,
+   "red": 96.7,
+   "attack": 0.7,
+   "duration": 0.0,
+   "aer_share": 41.2,
+   "t_peak": 0.0
+  },
+  {
+   "R0": 3,
+   "fa": 0.2,
+   "measure": "WFH",
+   "peak": 15.6,
+   "red": 48.9,
+   "attack": 80.0,
+   "duration": 108.8,
+   "aer_share": 75.3,
+   "t_peak": 45.2
+  },
+  {
+   "R0": 3,
+   "fa": 0.5,
+   "measure": "None",
+   "peak": 30.9,
+   "red": 0.0,
+   "attack": 93.9,
+   "duration": 76.5,
+   "aer_share": 51.0,
+   "t_peak": 26.8
+  },
+  {
+   "R0": 3,
+   "fa": 0.5,
+   "measure": "Barriers",
+   "peak": 19.0,
+   "red": 38.5,
+   "attack": 84.3,
+   "duration": 98.8,
+   "aer_share": 72.9,
+   "t_peak": 39.8
+  },
+  {
+   "R0": 3,
+   "fa": 0.5,
+   "measure": "Distancing",
+   "peak": 21.2,
+   "red": 31.3,
+   "attack": 86.8,
+   "duration": 93.5,
+   "aer_share": 68.1,
+   "t_peak": 36.8
+  },
+  {
+   "R0": 3,
+   "fa": 0.5,
+   "measure": "Ventilation",
+   "peak": 10.0,
+   "red": 67.7,
+   "attack": 67.3,
+   "duration": 127.2,
+   "aer_share": 10.0,
+   "t_peak": 56.0
+  },
+  {
+   "R0": 3,
+   "fa": 0.5,
+   "measure": "Masking",
+   "peak": 1.0,
+   "red": 96.8,
+   "attack": 1.3,
+   "duration": 0.0,
+   "aer_share": 73.5,
+   "t_peak": 0.0
+  },
+  {
+   "R0": 3,
+   "fa": 0.5,
+   "measure": "WFH",
+   "peak": 38.0,
+   "red": -23.2,
+   "attack": 97.0,
+   "duration": 68.5,
+   "aer_share": 91.8,
+   "t_peak": 21.8
+  },
+  {
+   "R0": 3,
+   "fa": 0.9,
+   "measure": "None",
+   "peak": 31.2,
+   "red": 0.0,
+   "attack": 94.3,
+   "duration": 76.2,
+   "aer_share": 90.3,
+   "t_peak": 26.8
+  },
+  {
+   "R0": 3,
+   "fa": 0.9,
+   "measure": "Barriers",
+   "peak": 29.2,
+   "red": 6.4,
+   "attack": 93.3,
+   "duration": 79.2,
+   "aer_share": 95.9,
+   "t_peak": 28.5
+  },
+  {
+   "R0": 3,
+   "fa": 0.9,
+   "measure": "Distancing",
+   "peak": 29.5,
+   "red": 5.3,
+   "attack": 93.5,
+   "duration": 78.8,
+   "aer_share": 95.0,
+   "t_peak": 28.0
+  },
+  {
+   "R0": 3,
+   "fa": 0.9,
+   "measure": "Ventilation",
+   "peak": 1.0,
+   "red": 96.8,
+   "attack": 1.5,
+   "duration": 0.0,
+   "aer_share": 50.5,
+   "t_peak": 0.2
+  },
+  {
+   "R0": 3,
+   "fa": 0.9,
+   "measure": "Masking",
+   "peak": 1.0,
+   "red": 96.8,
+   "attack": 3.0,
+   "duration": 0.0,
+   "aer_share": 96.1,
+   "t_peak": 0.2
+  },
+  {
+   "R0": 3,
+   "fa": 0.9,
+   "measure": "WFH",
+   "peak": 52.4,
+   "red": -67.9,
+   "attack": 98.9,
+   "duration": 57.5,
+   "aer_share": 98.9,
+   "t_peak": 14.0
+  },
+  {
+   "R0": 5,
+   "fa": 0.0,
+   "measure": "None",
+   "peak": 48.0,
+   "red": 0.0,
+   "attack": 98.3,
+   "duration": 59.8,
+   "aer_share": 0.0,
+   "t_peak": 15.2
+  },
+  {
+   "R0": 5,
+   "fa": 0.0,
+   "measure": "Barriers",
+   "peak": 15.9,
+   "red": 67.0,
+   "attack": 79.0,
+   "duration": 106.0,
+   "aer_share": 0.0,
+   "t_peak": 43.8
+  },
+  {
+   "R0": 5,
+   "fa": 0.0,
+   "measure": "Distancing",
+   "peak": 23.8,
+   "red": 50.5,
+   "attack": 88.4,
+   "duration": 87.5,
+   "aer_share": 0.0,
+   "t_peak": 33.0
+  },
+  {
+   "R0": 5,
+   "fa": 0.0,
+   "measure": "Ventilation",
+   "peak": 48.0,
+   "red": 0.0,
+   "attack": 98.3,
+   "duration": 59.8,
+   "aer_share": 0.0,
+   "t_peak": 15.2
+  },
+  {
+   "R0": 5,
+   "fa": 0.0,
+   "measure": "Masking",
+   "peak": 1.0,
+   "red": 97.9,
+   "attack": 1.0,
+   "duration": 0.0,
+   "aer_share": 0.0,
+   "t_peak": 0.0
+  },
+  {
+   "R0": 5,
+   "fa": 0.0,
+   "measure": "WFH",
+   "peak": 1.0,
+   "red": 97.9,
+   "attack": 15.7,
+   "duration": 46.2,
+   "aer_share": 0.0,
+   "t_peak": 23.8
+  },
+  {
+   "R0": 5,
+   "fa": 0.2,
+   "measure": "None",
+   "peak": 48.4,
+   "red": 0.0,
+   "attack": 98.4,
+   "duration": 59.5,
+   "aer_share": 21.1,
+   "t_peak": 15.2
+  },
+  {
+   "R0": 5,
+   "fa": 0.2,
+   "measure": "Barriers",
+   "peak": 27.1,
+   "red": 44.1,
+   "attack": 91.5,
+   "duration": 82.2,
+   "aer_share": 42.0,
+   "t_peak": 30.0
+  },
+  {
+   "R0": 5,
+   "fa": 0.2,
+   "measure": "Distancing",
+   "peak": 31.9,
+   "red": 34.2,
+   "attack": 94.2,
+   "duration": 75.2,
+   "aer_share": 36.3,
+   "t_peak": 25.8
+  },
+  {
+   "R0": 5,
+   "fa": 0.2,
+   "measure": "Ventilation",
+   "peak": 41.6,
+   "red": 14.1,
+   "attack": 97.3,
+   "duration": 64.5,
+   "aer_share": 2.9,
+   "t_peak": 18.8
+  },
+  {
+   "R0": 5,
+   "fa": 0.2,
+   "measure": "Masking",
+   "peak": 1.0,
+   "red": 97.9,
+   "attack": 2.2,
+   "duration": 0.0,
+   "aer_share": 42.9,
+   "t_peak": 0.0
+  },
+  {
+   "R0": 5,
+   "fa": 0.2,
+   "measure": "WFH",
+   "peak": 34.5,
+   "red": 28.8,
+   "attack": 95.8,
+   "duration": 72.2,
+   "aer_share": 75.7,
+   "t_peak": 24.2
+  },
+  {
+   "R0": 5,
+   "fa": 0.5,
+   "measure": "None",
+   "peak": 49.0,
+   "red": 0.0,
+   "attack": 98.5,
+   "duration": 59.2,
+   "aer_share": 51.7,
+   "t_peak": 15.2
+  },
+  {
+   "R0": 5,
+   "fa": 0.5,
+   "measure": "Barriers",
+   "peak": 38.5,
+   "red": 21.5,
+   "attack": 96.9,
+   "duration": 67.8,
+   "aer_share": 73.7,
+   "t_peak": 21.2
+  },
+  {
+   "R0": 5,
+   "fa": 0.5,
+   "measure": "Distancing",
+   "peak": 40.6,
+   "red": 17.3,
+   "attack": 97.4,
+   "duration": 65.8,
+   "aer_share": 68.9,
+   "t_peak": 20.0
+  },
+  {
+   "R0": 5,
+   "fa": 0.5,
+   "measure": "Ventilation",
+   "peak": 27.9,
+   "red": 43.0,
+   "attack": 91.6,
+   "duration": 80.5,
+   "aer_share": 10.9,
+   "t_peak": 28.8
+  },
+  {
+   "R0": 5,
+   "fa": 0.5,
+   "measure": "Masking",
+   "peak": 1.0,
+   "red": 97.9,
+   "attack": 11.5,
+   "duration": 4.8,
+   "aer_share": 74.7,
+   "t_peak": 1.2
+  },
+  {
+   "R0": 5,
+   "fa": 0.5,
+   "measure": "WFH",
+   "peak": 54.8,
+   "red": -11.8,
+   "attack": 98.9,
+   "duration": 56.2,
+   "aer_share": 91.7,
+   "t_peak": 13.0
+  },
+  {
+   "R0": 5,
+   "fa": 0.9,
+   "measure": "None",
+   "peak": 49.7,
+   "red": 0.0,
+   "attack": 98.7,
+   "duration": 58.8,
+   "aer_share": 90.6,
+   "t_peak": 15.2
+  },
+  {
+   "R0": 5,
+   "fa": 0.9,
+   "measure": "Barriers",
+   "peak": 48.1,
+   "red": 3.3,
+   "attack": 98.6,
+   "duration": 60.0,
+   "aer_share": 96.0,
+   "t_peak": 16.0
+  },
+  {
+   "R0": 5,
+   "fa": 0.9,
+   "measure": "Distancing",
+   "peak": 48.3,
+   "red": 2.8,
+   "attack": 98.6,
+   "duration": 59.8,
+   "aer_share": 95.1,
+   "t_peak": 16.0
+  },
+  {
+   "R0": 5,
+   "fa": 0.9,
+   "measure": "Ventilation",
+   "peak": 1.1,
+   "red": 97.8,
+   "attack": 17.3,
+   "duration": 74.2,
+   "aer_share": 52.4,
+   "t_peak": 34.2
+  },
+  {
+   "R0": 5,
+   "fa": 0.9,
+   "measure": "Masking",
+   "peak": 4.5,
+   "red": 90.9,
+   "attack": 49.3,
+   "duration": 161.5,
+   "aer_share": 96.3,
+   "t_peak": 75.5
+  },
+  {
+   "R0": 5,
+   "fa": 0.9,
+   "measure": "WFH",
+   "peak": 66.1,
+   "red": -32.9,
+   "attack": 99.0,
+   "duration": 52.0,
+   "aer_share": 98.9,
+   "t_peak": 8.8
+  }
+ ],
+ "strategies": {
+  "0.5|None (winter baseline)": {
+   "peak": 30.9,
+   "red": 0.0
+  },
+  "0.5|Outdoor shift (+2 h)": {
+   "peak": 26.4,
+   "red": 14.3
+  },
+  "0.5|Home ventilation ζ₁×5": {
+   "peak": 20.4,
+   "red": 33.8
+  },
+  "0.5|Work ventilation ζ₂×10": {
+   "peak": 24.9,
+   "red": 19.4
+  },
+  "0.5|Home + work ventilation": {
+   "peak": 11.9,
+   "red": 61.5
+  },
+  "0.5|Outdoor + ventilation": {
+   "peak": 9.2,
+   "red": 70.3
+  },
+  "0.9|None (winter baseline)": {
+   "peak": 31.2,
+   "red": 0.0
+  },
+  "0.9|Outdoor shift (+2 h)": {
+   "peak": 25.5,
+   "red": 18.4
+  },
+  "0.9|Home ventilation ζ₁×5": {
+   "peak": 11.1,
+   "red": 64.3
+  },
+  "0.9|Work ventilation ζ₂×10": {
+   "peak": 20.7,
+   "red": 33.8
+  },
+  "0.9|Home + work ventilation": {
+   "peak": 1.0,
+   "red": 96.8
+  },
+  "0.9|Outdoor + ventilation": {
+   "peak": 1.0,
+   "red": 96.8
+  }
+ },
+ "identifiability": [
+  {
+   "fa": 0.0,
+   "beta_hat": 0.2996,
+   "gamma_hat": 0.0997,
+   "R0_hat": 3.004,
+   "rms_resid_pct": 0.191,
+   "Barriers": {
+    "sir": 92.3,
+    "true": 92.4,
+    "gap": -0.0
+   },
+   "Distancing": {
+    "sir": 77.0,
+    "true": 77.0,
+    "gap": -0.1
+   },
+   "Ventilation": {
+    "sir": 0.0,
+    "true": 0.0,
+    "gap": -0.0
+   },
+   "Masking": {
+    "sir": 96.7,
+    "true": 96.7,
+    "gap": 0.0
+   },
+   "WFH": {
+    "sir": 96.7,
+    "true": 96.7,
+    "gap": 0.0
+   }
+  },
+  {
+   "fa": 0.2,
+   "beta_hat": 0.3002,
+   "gamma_hat": 0.0997,
+   "R0_hat": 3.01,
+   "rms_resid_pct": 0.201,
+   "Barriers": {
+    "sir": 92.3,
+    "true": 70.8,
+    "gap": 21.5
+   },
+   "Distancing": {
+    "sir": 76.8,
+    "true": 57.1,
+    "gap": 19.8
+   },
+   "Ventilation": {
+    "sir": 0.0,
+    "true": 23.9,
+    "gap": -23.9
+   },
+   "Masking": {
+    "sir": 96.7,
+    "true": 96.7,
+    "gap": -0.0
+   },
+   "WFH": {
+    "sir": 96.7,
+    "true": 48.9,
+    "gap": 47.8
+   }
+  },
+  {
+   "fa": 0.5,
+   "beta_hat": 0.2998,
+   "gamma_hat": 0.0989,
+   "R0_hat": 3.032,
+   "rms_resid_pct": 0.244,
+   "Barriers": {
+    "sir": 92.0,
+    "true": 38.5,
+    "gap": 53.5
+   },
+   "Distancing": {
+    "sir": 76.4,
+    "true": 31.3,
+    "gap": 45.1
+   },
+   "Ventilation": {
+    "sir": 0.0,
+    "true": 67.7,
+    "gap": -67.7
+   },
+   "Masking": {
+    "sir": 96.8,
+    "true": 96.8,
+    "gap": -0.0
+   },
+   "WFH": {
+    "sir": 96.8,
+    "true": -23.2,
+    "gap": 119.9
+   }
+  },
+  {
+   "fa": 0.9,
+   "beta_hat": 0.3003,
+   "gamma_hat": 0.0984,
+   "R0_hat": 3.052,
+   "rms_resid_pct": 0.225,
+   "Barriers": {
+    "sir": 91.7,
+    "true": 6.4,
+    "gap": 85.3
+   },
+   "Distancing": {
+    "sir": 76.0,
+    "true": 5.3,
+    "gap": 70.7
+   },
+   "Ventilation": {
+    "sir": 0.0,
+    "true": 96.8,
+    "gap": -96.8
+   },
+   "Masking": {
+    "sir": 96.8,
+    "true": 96.8,
+    "gap": -0.0
+   },
+   "WFH": {
+    "sir": 96.8,
+    "true": -67.9,
+    "gap": 164.7
+   }
+  }
+ ],
+ "proper_sensitivity": {
+  "0.3|0.5": {
+   "Barriers": 42.0,
+   "Distancing": 34.0,
+   "Ventilation": 68.1,
+   "Masking": 96.7,
+   "WFH": -29.5
+  },
+  "0.3|0.9": {
+   "Barriers": 7.3,
+   "Distancing": 6.1,
+   "Ventilation": 96.7,
+   "Masking": 96.7,
+   "WFH": -82.6
+  },
+  "0.5|0.5": {
+   "Barriers": 24.9,
+   "Distancing": 19.9,
+   "Ventilation": 43.2,
+   "Masking": 97.9,
+   "WFH": -15.8
+  },
+  "0.5|0.9": {
+   "Barriers": 4.1,
+   "Distancing": 3.4,
+   "Ventilation": 97.9,
+   "Masking": 96.4,
+   "WFH": -42.4
+  }
+ }
+}
