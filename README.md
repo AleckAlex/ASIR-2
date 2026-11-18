@@ -82,7 +82,7 @@ top of `asir3.py`. The code is commented for readers coming from Fortran.
 If you use this code, please cite:
 
 - The code: Alexopoulos, A.H. (2026). A-SIR with segregated spaces (v1.0).
-  Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+  Zenodo. https://doi.org/10.5281/zenodo.24339219
 - The model it is based on: Alexopoulos, A.H. (2025). Pandemic preparedness
   and new model developments for airborne diseases transmitting via aerosols.
   *BioSystems* 255, 105532.
